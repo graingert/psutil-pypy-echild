@@ -4,6 +4,9 @@
 #
 #    pip-compile --generate-hashes --output-file=requirements.txt requirements.in
 #
+patchy==1.5.0 \
+    --hash=sha256:21609acb2e7d6b5375c605ae1a0f13469c50569db817ee4e62336b0aff103d75 \
+    --hash=sha256:aae8ad17484b94498c2e4232a3e419cebf526e2ad8a80282f77447e9fd4d8a5c
 psutil==5.6.7 \
     --hash=sha256:094f899ac3ef72422b7e00411b4ed174e3c5a2e04c267db6643937ddba67a05b \
     --hash=sha256:10b7f75cc8bd676cfc6fa40cd7d5c25b3f45a0e06d43becd7c2d2871cbb5e806 \
@@ -16,3 +19,7 @@ psutil==5.6.7 \
     --hash=sha256:e85f727ffb21539849e6012f47b12f6dd4c44965e56591d8dec6e8bc9ab96f4a \
     --hash=sha256:fd2e09bb593ad9bdd7429e779699d2d47c1268cbde4dda95fcd1bd17544a0217 \
     --hash=sha256:ffad8eb2ac614518bbe3c0b8eb9dffdb3a8d2e3a7d5da51c5b974fb723a5c5aa
+six==1.13.0 \
+    --hash=sha256:1f1b7d42e254082a9db6279deae68afb421ceba6158efa6131de7b3003ee93fd \
+    --hash=sha256:30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66 \
+    # via patchy
